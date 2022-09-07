@@ -1,0 +1,42 @@
+.container__content-post{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.main-mockup {
+  height: auto;
+}
+.container__content-post img {
+  object-fit: contain;
+  width: 100%;
+}
+.block-headline h3 {
+  margin: 2rem 0 0;
+}
+.block__divided {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block__divided h3 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.block__divided h3:before {
+  content: "";
+  display: block;
+  width: 6rem;
+  height: 1px;
+  background-color: #fff;
+  margin-right: 1.3rem;
+}
+.block__divided p {
+  margin: 0;
+}
+.block__divided-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 70%;
+}
