@@ -6,7 +6,7 @@ const Confejas = () => import('../pages/Confejas.vue')
 const NotFound = () => import('../pages/NotFound.vue')
 
 const router = createRouter({
-  history: createWebHistory('/portfolio/'),
+  history: createWebHistory('/vue-portfolio/'),
   routes: [
     {
       path: '/',
