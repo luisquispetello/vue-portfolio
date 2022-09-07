@@ -8,12 +8,13 @@
           Project built from the idea to full design research and deployment.
         </p>
       </div>
-      <router-link to="/sartorial-class"
-        ><button>View Project</button></router-link
-      >
+      <router-link to="/sartorial-class" class="button">View Project</router-link>
     </section>
     <div class="project__content-mockup">
-      <img src="../assets/images/sartorial-class/main-mockup-sartorial.png" alt="" />
+      <img
+        src="../assets/images/sartorial-class/main-mockup-sartorial.png"
+        alt=""
+      />
     </div>
   </div>
 
@@ -30,7 +31,7 @@
           not at the last minute.
         </p>
       </div>
-      <router-link to="/confejas"><button>View Project</button></router-link>
+      <router-link to="/confejas" class="button">View Project</router-link>
     </section>
   </div>
 </template>
@@ -60,7 +61,6 @@ h2 {
 }
 .project__content p {
   margin: 0;
-  
 }
 .project__content-mockup {
   height: 100%;
