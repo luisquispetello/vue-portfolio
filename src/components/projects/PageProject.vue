@@ -1,6 +1,6 @@
 <template>
   <div class="container__projects">
-    <NavMenu />
+    <BackButton />
     <div class="container__content">
       <h2>{{ project.title }}</h2>
       <header class="container__content__header">
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import NavMenu from "../../components/NavMenu.vue";
+import BackButton from "../BackButton.vue";
 
 const props = defineProps(["project"]);
 </script>
