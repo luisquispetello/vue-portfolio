@@ -1,5 +1,5 @@
 <template>
-  <ProjectSingle v-for='project in projects' :project='project'/>
+  <ProjectSingle v-for='project in projects' :key="project.id" :project='project'/>
 </template>
 
 <script setup>
