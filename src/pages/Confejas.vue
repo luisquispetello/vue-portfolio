@@ -1,5 +1,5 @@
 <template>
-  <SingleProject :project="project">
+  <PageProject :project="project">
     <div class="container__content-post">
       <div class="main-mockup">
         <img
@@ -129,11 +129,11 @@
         v-motion-fade-visible-once
       />
     </div>
-  </SingleProject>
+  </PageProject>
 </template>
 
 <script setup>
-import SingleProject from "../components/SingleProject.vue";
+import PageProject from "../components/projects/PageProject.vue";
 import style from "../assets/css/style-post.css";
 
 const project = {

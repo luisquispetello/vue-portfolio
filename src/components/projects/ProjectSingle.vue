@@ -1,5 +1,5 @@
 <template>
-  <section class="project__container">
+  <section class="project__container" :class="{ 'row-reverse': project.id !== 1 }">
     <div class="project__content">
       <h2>{{ project.title }}</h2>
       <div class="project__content-text">
