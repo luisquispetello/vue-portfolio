@@ -1,13 +1,6 @@
 <template>
-  <PageProject :project="project">
+  <PageProject :project="project[0]">
     <div class="container__content-post">
-      <div class="main-mockup">
-        <img
-          src="../assets/images/sartorial-class/main-mockup.png"
-          alt="Sartorial Class mockup"
-        />
-      </div>
-
       <div class="block__divided">
         <div></div>
         <div class="block__divided-column">
@@ -36,14 +29,12 @@
             tailoring academy. The drawback is that there are very few schools
             (only one in Spain) and they are also expensive.
           </p>
-          <figure>
-            <img
-              src="../assets/images/sartorial-class/tailor-luis.png"
-              alt="Luis Tailor"
-              v-motion-fade-visible-once
-            />
-            <figcaption>Me as apprentice</figcaption>
-          </figure>
+          <img
+            src="../assets/images/sartorial-class/tailor-luis.png"
+            alt="Luis Tailor"
+            v-motion-fade-visible-once
+          />
+          <figcaption>Me as apprentice</figcaption>
         </div>
       </div>
 
@@ -184,15 +175,8 @@
 
 <script setup>
 import PageProject from "../components/projects/PageProject.vue";
+import project from "../data/projects.js";
 import style from "../assets/css/style-post.css";
-
-const project = {
-  title: "Sartorial Class - Online Tailoring Courses",
-  rol1: "UX & UI design",
-  rol2: "Build product from zero",
-  result1: "Membership Site Academy",
-  img1: "src/assets/images/web-project-1.png",
-};
 </script>
 
 <style scoped></style>

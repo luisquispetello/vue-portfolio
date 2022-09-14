@@ -21,9 +21,12 @@
           </div>
         </section>
       </header>
+      <div class="main-mockup">
+        <img :src="project.img2" :alt="project.title" />
+      </div>
       <slot></slot>
     </div>
-    <NavMenu />
+    <BackButton />
   </div>
 </template>
 
@@ -54,13 +57,21 @@ const props = defineProps(["project"]);
 .container__content__header-column {
   line-height: 1.1;
 }
+.main-mockup {
+  height: auto;
+  margin-bottom: 10rem;
+}
+.main-mockup img {
+  object-fit: contain;
+  width: 100%;
+}
 
 @media only screen and (max-width: 768px) {
   .container__content__header-column {
     width: 50%;
   }
   .container__content__header {
-  margin: 3rem 0 5rem;
-}
+    margin: 3rem 0 5rem;
+  }
 }
 </style>

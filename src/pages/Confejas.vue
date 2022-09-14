@@ -1,13 +1,6 @@
 <template>
-  <PageProject :project="project">
+  <PageProject :project="project[1]">
     <div class="container__content-post">
-      <div class="main-mockup">
-        <img
-          src="../assets/images/confejas/main-mockup.png"
-          alt="Confejas web mockup"
-        />
-      </div>
-
       <div class="block__divided">
         <div></div>
         <div class="block__divided-column">
@@ -64,8 +57,8 @@
         </div>
         <div class="block__divided-column">
           <p>
-            Clean, fresh and simple branding to differentiate from the rest
-            of YSA conferences in Europe. The idea was to transmit dynamism and
+            Clean, fresh and simple branding to differentiate from the rest of
+            YSA conferences in Europe. The idea was to transmit dynamism and
             joviality and to do so I used a warm color palette and thick
             typography.
           </p>
@@ -76,13 +69,11 @@
         </div>
       </div>
 
-      <p>
-        <img
-          src="../assets/images/confejas/brand-kit-mockup.png"
-          alt="brand kit mockup"
-          v-motion-fade-visible-once
-        />
-      </p>
+      <img
+        src="../assets/images/confejas/brand-kit-mockup.png"
+        alt="brand kit mockup"
+        v-motion-fade-visible-once
+      />
 
       <div class="block__divided">
         <div>
@@ -134,16 +125,8 @@
 
 <script setup>
 import PageProject from "../components/projects/PageProject.vue";
+import project from "../data/projects";
 import style from "../assets/css/style-post.css";
-
-const project = {
-  title: "Confejas - Young Single Adult Spain Conference",
-  rol1: "Branding",
-  rol2: "UX & UI design",
-  rol3: "Web development",
-  result1: "Transmit a consistent image",
-  result2: "Fill the places before the deadline",
-};
 </script>
 
 <style scoped></style>

@@ -3,13 +3,7 @@
   flex-direction: column;
   gap: 10rem;
 }
-.main-mockup {
-  height: auto;
-}
-.container__content-post img {
-  object-fit: contain;
-  width: 100%;
-}
+
 .block-headline h3 {
   margin: 2rem 0 0;
 }
@@ -48,7 +42,7 @@
   .block__divided {
     flex-direction: column;
   }
-  .block__divided h3{
+  .block__divided h3 {
     margin-bottom: 5rem;
   }
   .block__divided-column {
