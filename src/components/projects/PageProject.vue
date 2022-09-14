@@ -73,5 +73,8 @@ const props = defineProps(["project"]);
   .container__content__header {
     margin: 3rem 0 5rem;
   }
+  .main-mockup {
+    margin-bottom: 5rem;
+  }
 }
 </style>
