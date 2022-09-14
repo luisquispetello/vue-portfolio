@@ -1,10 +1,10 @@
 <template>
-  <section>
+  <div class="app-container">
     <transition name="fade" mode="out-in">
       <router-view />
     </transition>
     <AppFooter />
-  </section>
+  </div>
 </template>
 
 <script setup>
@@ -12,12 +12,6 @@ import AppFooter from "./components/AppFooter.vue";
 </script>
 
 <style scoped>
-section {
-  display: flex;
-  flex-direction: column;
-  gap: 10rem;
-}
-
 .fade-enter-active {
   animation: coming 0.4s;
   animation-delay: 0.2s;

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="home-container">
     <AppHero />
     <AppProjects />
     <AboutMe />
@@ -13,9 +13,4 @@ import AppHero from "../components/AppHero.vue";
 </script>
 
 <style scoped>
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 20vh;
-}
 </style>

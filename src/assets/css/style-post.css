@@ -1,4 +1,4 @@
-.container__content-post{
+.container__content-post {
   display: flex;
   flex-direction: column;
   gap: 10rem;
@@ -39,4 +39,23 @@
   flex-direction: column;
   gap: 2rem;
   width: 70%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container__content-post {
+    gap: 5rem;
+  }
+  .block__divided {
+    flex-direction: column;
+  }
+  .block__divided h3{
+    margin-bottom: 5rem;
+  }
+  .block__divided-column {
+    flex-direction: column;
+    width: 100%;
+  }
+  .block__divided-column h4 {
+    margin-top: 3rem;
+  }
 }

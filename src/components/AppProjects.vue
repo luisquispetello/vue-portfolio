@@ -1,42 +1,56 @@
 <template>
-  <div class="project__container">
-    <section class="project__content">
+  <section class="project__container">
+    <div class="project__content">
       <h2>Sartorial Class - Online Tailoring Courses</h2>
       <div class="project__content-text">
         <p>
-          Online academy based on teaching all the secrets of bespoke tailoring.
-          Project built from the idea to full design research and deployment.
+          Online academy based on teaching bespoke tailoring. Project built from
+          the idea to full design research and deployment.
         </p>
       </div>
-      <router-link to="/sartorial-class" class="button">View Project</router-link>
-    </section>
+      <router-link
+        to="/sartorial-class"
+        class="button"
+        v-motion-slide-visible-once-bottom
+        >See more</router-link
+      >
+    </div>
     <div class="project__content-mockup">
       <img
-        src="../assets/images/sartorial-class/main-mockup-sartorial.png"
-        alt=""
+        src="../assets/images/sartorial-class/home-mockup.png"
+        alt="mockup sartorial class"
       />
     </div>
-  </div>
+  </section>
 
-  <div class="project__container">
-    <div class="project__content-mockup">
-      <img src="../assets/images/confejas/main-mockup-confejas.png" alt="" />
-    </div>
-    <section class="project__content">
-      <h2>Confejas - Youth Single Adult Spain Conference</h2>
+  <section class="project__container row-reverse">
+    <div class="project__content">
+      <h2>Confejas - Young Single Adult Spain Conference</h2>
       <div class="project__content-text">
         <p>
-          Conference for YSA from The Church of Jesus Christ of Latter Days
-          Saints and friends. The goal, to get young people sign up early and
-          not at the last minute.
+          Conference for young single adults. The goal, to get the users sign up
+          early and not at the last minute.
         </p>
       </div>
-      <router-link to="/confejas" class="button">View Project</router-link>
-    </section>
-  </div>
+      <router-link
+        to="/confejas"
+        class="button"
+        v-motion-slide-visible-once-bottom
+        >See more</router-link
+      >
+    </div>
+    <div class="project__content-mockup">
+      <img
+        src="../assets/images/confejas/home-mockup.png"
+        alt="mockup confejas"
+      />
+    </div>
+  </section>
 </template>
 
-<script setup></script>
+<script setup>
+  import projects from "../data/projects.js"
+</script>
 
 <style scoped>
 h2 {
@@ -46,28 +60,48 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 10rem;
-
-  width: 100%;
-  height: 70rem;
+  position: relative;
 }
-
 .project__content {
-  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  max-width: 40%;
 }
-.project__content p {
+.project__content-text p {
   margin: 0;
 }
 .project__content-mockup {
-  height: 100%;
+  position: relative;
+  max-width: 50%;
+}
+.row-reverse {
+  flex-direction: row-reverse;
 }
 img {
   width: 100%;
-  height: 100%;
   object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .project__container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+
+    height: 100%;
+  }
+  .project__content {
+    max-width: 100%;
+  }
+  .project__content-text p {
+    margin: 0;
+  }
+  .project__content-mockup {
+    display: flex;
+    justify-items: center;
+    max-width: 100%;
+  }
 }
 </style>

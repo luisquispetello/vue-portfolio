@@ -1,18 +1,21 @@
 <template>
-  <div class="project__container">
-    <section class="project__content">
+  <section class="project__container">
+    <div class="project__content">
       <h2>{{ project.title }}</h2>
       <div class="project__content-text">
         <p>{{ project.body }}</p>
       </div>
-      <router-link :to="project.link"
-        ><button>View Project</button></router-link
+      <router-link
+        :to="project.link"
+        class="button"
+        v-motion-slide-visible-once-bottom
+        >See more</router-link
       >
-    </section>
+    </div>
     <div class="project__content-mockup">
       <img :src="project.img" :alt="project.title" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -27,25 +30,48 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 6.4rem;
-
-  width: 100%;
-  height: 55rem;
+  justify-content: space-between;
+  gap: 10rem;
+  position: relative;
 }
-
 .project__content {
-  width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2rem;
+  max-width: 40%;
 }
-
+.project__content-text p {
+  margin: 0;
+}
 .project__content-mockup {
-  height: 100%;
-  width: 60%;
+  position: relative;
+  max-width: 50%;
+}
+.row-reverse {
+  flex-direction: row-reverse;
 }
 img {
-  height: 100%;
-  object-fit: fill;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .project__container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+
+    height: 100%;
+  }
+  .project__content {
+    max-width: 100%;
+  }
+  .project__content-text p {
+    margin: 0;
+  }
+  .project__content-mockup {
+    display: flex;
+    justify-items: center;
+    max-width: 100%;
+  }
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
-  <div :class="{ 'center-text': $route.path !== '/' }">
-    <p>hola@luis.run</p>
-    <a href="https://www.linkedin.com/in/luisquispetello">LinkedIn</a>
-  </div>
+  <footer :class="{ 'center-text': $route.path !== '/' }">
+    <p>luisquispetello@gmail.com</p>
+    <a href="https://www.linkedin.com/in/luisquispetello" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </footer>
 </template>
 
 <script setup></script>
@@ -12,10 +12,11 @@
   text-align: center;
 }
 p {
-  font-size: 6.8rem;
-  margin-bottom: 2rem;
+  font-size: 5.063rem;
+  font-size: clamp(2rem, 3vw + 1rem, 5.063rem);
+  margin: 0;
 }
 a {
-  font-size: 3.4rem;
+  font-size: 3.375rem;
 }
 </style>

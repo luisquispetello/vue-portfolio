@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="about-me" v-motion-slide-visible-once-bottom>
     <h2>About</h2>
     <p>
       Hello! This is Luis. I am a result-focused, flexible problem-solver and
@@ -23,19 +23,7 @@
 </template>
 
 <script>
-export default {};
 </script>
 
 <style scoped>
-h2 {
-  margin-top: 0;
-}
-p {
-  font-size: 3.4rem;
-  line-height: 1.2;
-  margin-top: 3rem;
-}
-div {
-  max-width: 1200px;
-}
 </style>

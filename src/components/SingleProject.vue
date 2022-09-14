@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container__projects">
     <NavMenu />
     <div class="container__content">
       <h2>{{ project.title }}</h2>
-      <div class="container__content__header">
+      <header class="container__content__header">
         <section class="container__content__header-column">
           <p>My role</p>
           <div>
@@ -20,7 +20,7 @@
             <p>{{ project.result3 }}</p>
           </div>
         </section>
-      </div>
+      </header>
       <slot></slot>
     </div>
     <NavMenu />
@@ -34,14 +34,14 @@ const props = defineProps(["project"]);
 </script>
 
 <style scoped>
-.container {
+.container__projects {
   display: flex;
   flex-direction: column;
   gap: 3rem;
   align-items: center;
 }
 .container__content {
-  max-width: 70%;
+  width: min(100%, 110rem);
   margin-bottom: 5rem;
 }
 .container__content__header {
@@ -49,8 +49,18 @@ const props = defineProps(["project"]);
   flex-direction: row;
   justify-content: space-between;
   margin: 5rem 0 8rem;
+  gap: 3rem;
 }
 .container__content__header-column {
   line-height: 1.1;
+}
+
+@media only screen and (max-width: 768px) {
+  .container__content__header-column {
+    width: 50%;
+  }
+  .container__content__header {
+  margin: 3rem 0 5rem;
+}
 }
 </style>

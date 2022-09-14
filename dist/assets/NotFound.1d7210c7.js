@@ -1,1 +1,0 @@
-import{N as o}from"./NavMenu.03b08a9a.js";import{o as t,b as a,d as r,a as e}from"./index.ab25c4bf.js";const s=e("h2",null,"Not found",-1),n=e("p",null,"Sorry, the page you are searching for does not exist",-1),p={__name:"NotFound",setup(c){return(_,u)=>(t(),a("div",null,[s,n,r(o)]))}};export{p as default};

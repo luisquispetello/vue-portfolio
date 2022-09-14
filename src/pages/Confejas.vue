@@ -3,8 +3,8 @@
     <div class="container__content-post">
       <div class="main-mockup">
         <img
-          src="../assets/images/confejas/responsive-mockup-confejas.png"
-          alt="Confejas mockup"
+          src="../assets/images/confejas/main-mockup.png"
+          alt="Confejas web mockup"
         />
       </div>
 
@@ -12,9 +12,8 @@
         <div></div>
         <div class="block__divided-column">
           <p>
-            Confejas from the acronyms “conferencia” + “jovenes adultos
-            solteros” is a conference organized by The Church of Jesuschrist of
-            Latter Days Saints where the youth single adults people from 18 - 31
+            Confejas is a conference organized by The Church of Jesus Christ of
+            Latter-day Saints where the Young Single Adults people from 18 - 31
             years old could meet YSA from other parts of Spain.
           </p>
         </div>
@@ -23,10 +22,8 @@
       <div class="block-headline">
         <p>The Problem</p>
         <h3>
-          One of the problems observed by the organizers of past conferences is
-          that young people signed up for the conference at the last minute and
-          also later had to answer lots of emails with questions and problems in
-          registration.
+          One of the problems observed by the organizers is that YSA enroll for
+          the conference at the last week.
         </h3>
       </div>
 
@@ -34,26 +31,32 @@
         <div></div>
         <div class="block__divided-column">
           <p>
-            I wanted to understand why the YSA were leaving the registration for
-            the last minute. Through conversations, research and data it became
-            clear that YSA don't feel too much attracted to the conference.
-            There was not just one issue but many in how the YSA interacted and
+            This problem made it difficult to properly organize the conference
+          </p>
+          <p>
+            I wanted to understand why the users were leaving the registration
+            for the last minute. Through conversations and data it became clear
+            that users don't feel too much attracted to the conference. There
+            was not just one issue but many in how the users interacted and
             perceived the conference.
           </p>
           <h4>1. Poor brand image</h4>
           <p>
-            The conference did not have a defined brand that conveyed its
+            The conference did not have a defined brand that transmit its
             values.
           </p>
           <h4>2. Bad structure of information</h4>
           <p>
-            The YSA wanted to know what the conference program is before they
-            register.
+            The website didn't had all the information. The user wants to know
+            what the conference program will be before registering.
           </p>
         </div>
       </div>
 
-      <img src="../assets/images/confejas/brand-logo-confejas.png" alt="" />
+      <img
+        src="../assets/images/confejas/brand-mockup.png"
+        alt="confejas brand"
+      />
 
       <div class="block__divided">
         <div>
@@ -61,7 +64,7 @@
         </div>
         <div class="block__divided-column">
           <p>
-            Clean, fresh and simple branding to differentiate us from the rest
+            Clean, fresh and simple branding to differentiate from the rest
             of YSA conferences in Europe. The idea was to transmit dynamism and
             joviality and to do so I used a warm color palette and thick
             typography.
@@ -74,7 +77,11 @@
       </div>
 
       <p>
-        <img src="../assets/images/confejas/brand-kit-confejas.png" alt="" />
+        <img
+          src="../assets/images/confejas/brand-kit-mockup.png"
+          alt="brand kit mockup"
+          v-motion-fade-visible-once
+        />
       </p>
 
       <div class="block__divided">
@@ -89,7 +96,7 @@
           <p>
             I simplified the structure of the website, so we have a hero section
             where the primary CTA is to register for the conference and the
-            second CTA is for a past conferences trailer showing all the
+            second CTA is for watch a past conferences trailer showing all the
             activities. Only above the fold is shown all the main information.
             When, where and what is Confejas.
           </p>
@@ -111,8 +118,16 @@
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
         ></iframe>
       </div>
-      <img src="../assets/images/confejas/mb-responsive.png" alt="mockup" />
-      <img src="../assets/images/confejas/mb-responsive-2.png" alt="mockup" />
+      <img
+        src="../assets/images/confejas/mb-1-mockup.png"
+        alt="mockup mobile"
+        v-motion-fade-visible-once
+      />
+      <img
+        src="../assets/images/confejas/mb-2-mockup.png"
+        alt="mockup mobile 2"
+        v-motion-fade-visible-once
+      />
     </div>
   </SingleProject>
 </template>
@@ -122,9 +137,9 @@ import SingleProject from "../components/SingleProject.vue";
 import style from "../assets/css/style-post.css";
 
 const project = {
-  title: "Confejas - Youth Single Adult Spain Conference",
+  title: "Confejas - Young Single Adult Spain Conference",
   rol1: "Branding",
-  rol2: "UX design, UI design",
+  rol2: "UX & UI design",
   rol3: "Web development",
   result1: "Transmit a consistent image",
   result2: "Fill the places before the deadline",

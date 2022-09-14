@@ -4,7 +4,7 @@
       <div class="main-mockup">
         <img
           src="../assets/images/sartorial-class/main-mockup.png"
-          alt="Confejas mockup"
+          alt="Sartorial Class mockup"
         />
       </div>
 
@@ -38,12 +38,12 @@
           </p>
           <figure>
             <img
-              src="../assets/images/sartorial-class/luis-tailor.png"
-              alt="tailor"
+              src="../assets/images/sartorial-class/tailor-luis.png"
+              alt="Luis Tailor"
+              v-motion-fade-visible-once
             />
             <figcaption>Me as apprentice</figcaption>
           </figure>
-
         </div>
       </div>
 
@@ -51,9 +51,9 @@
         <div></div>
         <div class="block__divided-column">
           <p>
-            To be sure I was covering the real problem I did a basic market
-            research using google trend, checking other online tailoring
-            academies and interviews with my tailoring classmates.
+            To be sure I was covering the real problem I did a basic research
+            using google trend, checking other online tailoring academies and
+            making interviews with my tailoring classmates.
           </p>
         </div>
       </div>
@@ -91,8 +91,9 @@
         </div>
       </div>
       <img
-        src="../assets/images/sartorial-class/mobile-responsive.png"
-        alt=""
+        src="../assets/images/sartorial-class/web-mockup.png"
+        alt="mockup web"
+        v-motion-fade-visible-once
       />
 
       <div class="block__divided">
@@ -101,7 +102,7 @@
           <p>
             With this in mind I check the surveys I did and I find that the
             first thing the user wants to learn is to cut and sew a bespoke
-            jackets. So the first courses should be focused on that.
+            jackets. So the courses should be focused on that.
           </p>
         </div>
       </div>
@@ -124,8 +125,10 @@
           </p>
           <p>
             I found that a membership site might be a better solution. We could
-            start with some videos at a very low monthly price and see if the
-            user likes it and if not, iterate from the feedback.
+            start with some video tutorials at a very low monthly price and see
+            if the user likes it and if not, receive feedback and iterate. This
+            approach benefit the user obtaining a high value content at low
+            entry price and benefit the creator validate the idea.
           </p>
         </div>
       </div>
@@ -169,6 +172,12 @@
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
         ></iframe>
       </div>
+
+      <img
+        src="../assets/images/sartorial-class/mb-mockup.png"
+        alt="mockup mobile"
+        v-motion-fade-visible-once
+      />
     </div>
   </SingleProject>
 </template>
@@ -179,9 +188,9 @@ import style from "../assets/css/style-post.css";
 
 const project = {
   title: "Sartorial Class - Online Tailoring Courses",
-  rol1: "UI design, UX design",
+  rol1: "UX & UI design",
   rol2: "Build product from zero",
-  result1: "Responsive mobile first website",
+  result1: "Membership Site Academy",
   img1: "src/assets/images/web-project-1.png",
 };
 </script>
