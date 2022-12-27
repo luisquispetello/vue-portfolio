@@ -2,5 +2,5 @@
 
 Simple portfolio
 
-## 
+## Designed in Figma
 
