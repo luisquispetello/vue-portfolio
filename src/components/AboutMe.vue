@@ -3,7 +3,7 @@
     <h2>About</h2>
     <p>
       Hello! This is Luis. I am a result-focused, flexible problem-solver and
-      self-taught frontend developer with 2 years of experience working as a
+      product designer with more than 3 years of experience working as a
       freelancer. I consider myself a proficient programmer, however, I will
       always be willing to learn, improve and take advantage of every
       opportunity that comes my way. Fearless of being out of my comfort zone
@@ -15,9 +15,9 @@
       meticulous in all I do.
     </p>
     <p>
-      As a curiosity in my free time I train weightlifting and do the genealogy research of my parents.
+      As a curiosity in my free time I train weightlifting and do the genealogy research of my family.
     </p>
-    <p>My skills: Javascript, HTML, CSS, Vue framework and UI/UX design</p>
+    <p>My skills: UI/UX design, HTML, CSS, Javascript and Vue framework</p>
     <p>Tools: Figma, Illustrator and VScode</p>
   </div>
 </template>

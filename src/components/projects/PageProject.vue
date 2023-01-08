@@ -5,7 +5,7 @@
       <h2>{{ project.title }}</h2>
       <header class="container__content__header">
         <section class="container__content__header-column">
-          <p>My role</p>
+          <p class="role">My role</p>
           <div>
             <p>{{ project.rol1 }}</p>
             <p>{{ project.rol2 }}</p>
@@ -13,7 +13,7 @@
           </div>
         </section>
         <section class="container__content__header-column">
-          <p>Results</p>
+          <p class="role">Results</p>
           <div>
             <p>{{ project.result1 }}</p>
             <p>{{ project.result2 }}</p>

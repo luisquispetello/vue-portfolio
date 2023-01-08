@@ -1,5 +1,5 @@
 <template>
-  <section class="project__container" :class="{ 'row-reverse': project.id !== 1 }">
+  <section class="project__container" :class="{ 'row-reverse': project.id !== 2 }">
     <div class="project__content">
       <h2>{{ project.title }}</h2>
       <div class="project__content-text">
@@ -8,6 +8,7 @@
       <router-link
         :to="project.link"
         class="button"
+        :class="{ 'display-none': project.id === 3 }"
         v-motion-slide-visible-once-bottom
         >See more</router-link
       >
@@ -49,6 +50,9 @@ h2 {
 }
 .row-reverse {
   flex-direction: row-reverse;
+}
+.display-none {
+  display: none;
 }
 img {
   width: 100%;
