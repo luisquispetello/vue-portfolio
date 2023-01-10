@@ -1,1 +1,0 @@
-import{B as o}from"./BackButton.b58d2a91.js";import{o as t,d as a,e as r,a as e}from"./index.6f159ba2.js";const s=e("h2",null,"Not found",-1),n=e("p",null,"Sorry, the page you are searching for does not exist",-1),p={__name:"NotFound",setup(c){return(_,u)=>(t(),a("div",null,[s,n,r(o)]))}};export{p as default};
