@@ -4,7 +4,7 @@
     <p>
       Hello! This is Luis. I am a result-focused, flexible problem-solver and
       product designer with more than 3 years of experience working as a
-      freelancer. I consider myself a proficient designer, however, I will
+      freelancer. I consider myself a pragmatic developer, however, I will
       always be willing to learn, improve and take advantage of every
       opportunity that comes my way. Fearless of being out of my comfort zone
       and willing to travel.
