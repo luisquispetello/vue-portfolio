@@ -25,8 +25,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "Chifapp - App fast food",
-    body: "Design app of famous peruvian-chinese fast food.",
+    title: "Chifai - Delivery fast food App",
+    body: "App design of famous peruvian-chinese fast food. Project in progress.",
     img: new URL('../assets/images/chifapp/home-mockup.png', import.meta.url),
     img2: new URL('../assets/images/chifapp/home-mockup.png', import.meta.url),
     link: "/",
