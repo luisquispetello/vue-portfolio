@@ -22,20 +22,7 @@ const projects = [
     rol3: "Web development",
     result1: "Transmit a consistent image",
     result2: "Fill the places before the deadline",
-  },
-  {
-    id: 3,
-    title: "Chifai - Delivery fast food App",
-    body: "App design of famous peruvian-chinese fast food. Project in progress.",
-    img: new URL('../assets/images/chifapp/home-mockup.png', import.meta.url),
-    img2: new URL('../assets/images/chifapp/home-mockup.png', import.meta.url),
-    link: "/",
-    rol1: "Branding",
-    rol2: "UX & UI design",
-    rol3: "Web development",
-    result1: "Transmit a consistent image",
-    result2: "Fill the places before the deadline",
-  },
+  }
 ];
 
 export default projects;

@@ -3,11 +3,11 @@
     <h2>About</h2>
     <p>
       Hello! This is Luis. I am a result-focused, flexible problem-solver and
-      product designer with more than 3 years of experience working as a
-      freelancer. I consider myself a pragmatic developer, however, I will
+      fullstack designer with more than 3 years of experience working as a
+      freelancer. I consider myself a proficient designer and a pragmatic developer, however, I will
       always be willing to learn, improve and take advantage of every
       opportunity that comes my way. Fearless of being out of my comfort zone
-      and willing to travel.
+      and willing to work abroad.
     </p>
     <p>
       I also have a background in the world of bespoke tailoring working as a
@@ -19,7 +19,7 @@
       research of my family.
     </p>
     <p>My skills: UI/UX design, HTML, CSS, Javascript and Vue.JS framework</p>
-    <p>Tools: Figma, Illustrator and VScode</p>
+    <p>Tools: Figma, Adobe Illustrator and VScode</p>
   </div>
 </template>
 

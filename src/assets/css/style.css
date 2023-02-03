@@ -91,6 +91,11 @@ figcaption {
   font-size: 1.6rem;
 }
 
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .button {
   border-radius: 2em;
   border: 1px solid transparent;
