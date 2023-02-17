@@ -3,13 +3,13 @@
     <h2>Redesigns</h2>
     <div class="gallery">
       <div class="project-one">
-        <img src="../../assets/images/others/home-mockup-byu2.png" alt="">
+        <img src="../../assets/images/others/home-mockup-familysearch2.gif" alt="">
       </div>
       <div class="project-two">
-        <img src="../../assets/images/others/home-mockup-byu.png" alt="">
+        <img src="../../assets/images/others/home-mockup-familysearch1.gif" alt="">
       </div>
       <div class="project-three">
-        <img src="../../assets/images/others/home-mockup-familysearch.gif" alt="">
+        <img src="../../assets/images/others/home-mockup-pathway.png" alt="">
       </div>
     </div>
   </section>
@@ -41,9 +41,9 @@
 }
 
 .gallery img {
-  object-fit: cover;
+  object-fit: fill;
   height: 100%;
-  border-radius: 1em;
+  border-radius: 0.4em;
 }
 
 </style>
