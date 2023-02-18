@@ -54,10 +54,6 @@ h2 {
 .display-none {
   display: none;
 }
-img {
-  width: 100%;
-  object-fit: contain;
-}
 
 @media only screen and (max-width: 768px) {
   .project__container {

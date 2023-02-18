@@ -41,9 +41,15 @@
 }
 
 .gallery img {
-  object-fit: fill;
+  object-fit: contain;
   height: 100%;
-  border-radius: 0.4em;
+  border-radius: 0.2em;
 }
 
+@media only screen and (max-width: 768px) {
+.gallery {
+  gap: 2em;
+  grid-template-areas: "project-three" "project-one""project-two" ;
+}
+}
 </style>
