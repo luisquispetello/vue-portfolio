@@ -59,7 +59,7 @@ h5 {
 h1 {
   margin-top: 0;
   font-size: 7.594rem;
-  font-size: clamp(4.6rem, 5vw + 1rem, 7.594rem);
+  font-size: clamp(4.2rem, 5vw + 1rem, 7.594rem);
 }
 
 h2 {
