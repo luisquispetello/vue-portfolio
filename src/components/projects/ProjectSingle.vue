@@ -10,7 +10,7 @@
         class="button"
         :class="{ 'display-none': project.id === 3 }"
         v-motion-slide-visible-once-bottom
-        >See more</router-link
+        >Explore details</router-link
       >
     </div>
     <div class="project__content-mockup">

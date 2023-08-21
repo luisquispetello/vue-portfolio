@@ -2,23 +2,25 @@
   <div class="about-me" v-motion-slide-visible-once-bottom>
     <h2>About</h2>
     <p>
-      Hello! This is Luis. I am a result-focused, flexible problem-solver and
-      fullstack designer with more than 3 years of experience working as a
-      freelancer. I consider myself a proficient designer and a pragmatic developer, however, I will
-      always be willing to learn, improve and take advantage of every
-      opportunity that comes my way. Fearless of being out of my comfort zone
-      and willing to work abroad.
+      Hello! I'm Luis, a results-driven and adaptable Fullstack Designer.
+      With over 3 years of freelancing experience, I excel at problem-solving
+      and infuse creativity into every project. I wear both the hat of a skilled
+      designer and a pragmatic developer. But my journey doesn't stop there -
+      I'm always eager to learn, enhance my skills, and seize new opportunities.
+      Embracing challenges beyond my comfort zone is second nature to me, and
+      I'm enthusiastic about the prospect of working internationally.
     </p>
     <p>
-      I also have a background in the world of bespoke tailoring working as a
-      apprentice for 2 years in Madrid where I learned to be meticulous in all I
-      do and adapt quickly to new work environments.
+      I also boast a rich background in the realm of bespoke tailoring, having
+      worked as an apprentice for two years in Madrid. During this period, I
+      honed my skills in meticulous craftsmanship and developed an innate
+      ability to swiftly adapt to diverse work settings.
     </p>
     <p>
       As a curiosity in my free time I train weightlifting and do the genealogy
       research of my family.
     </p>
-    <p>My skills: UI/UX design, HTML, CSS, Javascript and Vue.JS framework</p>
+    <p>My skills: UX design, HTML, CSS, Javascript and Vue.JS framework</p>
     <p>Tools: Figma, Adobe Illustrator and VScode</p>
   </div>
 </template>

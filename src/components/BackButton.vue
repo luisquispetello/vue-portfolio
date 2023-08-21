@@ -11,7 +11,7 @@
 
 <style scoped>
 .button-back {
-  font-size: 3.375rem;
+  font-size: .375rem;
   font-size: clamp(2.4rem, 2vw + 1rem, 3.375rem);
   text-decoration: none;
 

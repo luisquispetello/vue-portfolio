@@ -3,13 +3,13 @@
     <h2>Redesigns</h2>
     <div class="gallery">
       <div class="project-one">
-        <img src="../../assets/images/others/home-mockup-familysearch2.gif" alt="">
+        <img src="../../assets/images/others/familysearch-dashboard-redesign-open.webp" alt="family search web">
       </div>
       <div class="project-two">
-        <img src="../../assets/images/others/home-mockup-familysearch1.gif" alt="">
+        <img src="../../assets/images/others/familysearch-dashboard-redesign-close.webp" alt="family search web">
       </div>
       <div class="project-three">
-        <img src="../../assets/images/others/home-mockup-pathway.png" alt="">
+        <img src="../../assets/images/others/home-mockup-pathway.webp" alt="pathway worldwide web">
       </div>
     </div>
   </section>

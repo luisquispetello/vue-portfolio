@@ -13,7 +13,8 @@ const router = createRouter({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Luis Quispe Tello | Portfolio'
+        title: 'Luis Quispe Tello | Portfolio',
+        description: 'This is the portfolio website of Luis Quispe a Frontend Designer, UX Designer and Tailor'
       }
     },
     {

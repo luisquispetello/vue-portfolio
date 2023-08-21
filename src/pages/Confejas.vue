@@ -47,7 +47,7 @@
       </div>
 
       <img
-        src="../assets/images/confejas/brand-mockup.png"
+        src="../assets/images/confejas/brand-mockup.webp"
         alt="confejas brand"
       />
 
@@ -70,7 +70,7 @@
       </div>
 
       <img
-        src="../assets/images/confejas/brand-kit-mockup.png"
+        src="../assets/images/confejas/brand-kit-mockup.webp"
         alt="brand kit mockup"
         v-motion-fade-visible-once
       />
@@ -110,12 +110,12 @@
         ></iframe>
       </div>
       <img
-        src="../assets/images/confejas/mb-1-mockup.png"
+        src="../assets/images/confejas/mb-1-mockup.webp"
         alt="mockup mobile"
         v-motion-fade-visible-once
       />
       <img
-        src="../assets/images/confejas/mb-2-mockup.png"
+        src="../assets/images/confejas/mb-2-mockup.webp"
         alt="mockup mobile 2"
         v-motion-fade-visible-once
       />
