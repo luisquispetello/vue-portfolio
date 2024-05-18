@@ -1,5 +1,5 @@
 <template>
-  <div class="about-me" v-motion-slide-visible-once-bottom>
+  <div class="about-me" >
     <h2>About</h2>
     <p>
       Hello! I'm Luis, a results-driven and adaptable Fullstack Designer.

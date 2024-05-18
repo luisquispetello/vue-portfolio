@@ -32,7 +32,6 @@
           <img
             src="../assets/images/sartorial-class/tailor-luis.webp"
             alt="Luis Tailor"
-            v-motion-fade-visible-once
           />
           <figcaption>Me as apprentice</figcaption>
         </div>
@@ -84,7 +83,7 @@
       <img
         src="../assets/images/sartorial-class/web-mockup.webp"
         alt="mockup web"
-        v-motion-fade-visible-once
+        
       />
 
       <div class="block__divided">
@@ -167,7 +166,7 @@
       <img
         src="../assets/images/sartorial-class/mb-mockup.webp"
         alt="mockup mobile"
-        v-motion-fade-visible-once
+        
       />
     </div>
   </PageProject>

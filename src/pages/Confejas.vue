@@ -72,7 +72,7 @@
       <img
         src="../assets/images/confejas/brand-kit-mockup.webp"
         alt="brand kit mockup"
-        v-motion-fade-visible-once
+        
       />
 
       <div class="block__divided">
@@ -112,12 +112,12 @@
       <img
         src="../assets/images/confejas/mb-1-mockup.webp"
         alt="mockup mobile"
-        v-motion-fade-visible-once
+        
       />
       <img
         src="../assets/images/confejas/mb-2-mockup.webp"
         alt="mockup mobile 2"
-        v-motion-fade-visible-once
+        
       />
     </div>
   </PageProject>

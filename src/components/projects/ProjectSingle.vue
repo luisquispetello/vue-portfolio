@@ -9,7 +9,7 @@
         :to="project.link"
         class="button"
         :class="{ 'display-none': project.id === 3 }"
-        v-motion-slide-visible-once-bottom
+        
         >Explore details</router-link
       >
     </div>
