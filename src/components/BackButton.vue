@@ -12,7 +12,7 @@
 <style scoped>
 .button-back {
   font-size: .375rem;
-  font-size: clamp(2.4rem, 2vw + 1rem, 3.375rem);
+  font-size: clamp(2rem, 2vw + 1rem, 2.5rem);
   text-decoration: none;
 
   display: flex;
@@ -20,6 +20,7 @@
   gap: 0.8rem;
   align-items: center;
   transition: gap 200ms;
+  text-transform: uppercase;
 }
 .button-back:hover,
 .button-back:active {

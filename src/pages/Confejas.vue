@@ -126,7 +126,6 @@
 <script setup>
 import PageProject from "../components/projects/PageProject.vue";
 import project from "../data/projects";
-import style from "../assets/css/style-post.css";
 </script>
 
-<style scoped></style>
+<style src="../assets/css/style-post.css"></style>

@@ -43,6 +43,7 @@ h2 {
 }
 .project__content-text p {
   margin: 0;
+  font-size: clamp(1rem, 1vw + 1rem, 2rem);
 }
 .project__content-mockup {
   position: relative;

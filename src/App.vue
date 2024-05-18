@@ -1,15 +1,16 @@
 <template>
   <div class="app-container">
-    <transition name="fade" mode="out-in">
-      <router-view />
-    </transition>
-    <AppFooter />
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+      <AppFooter />
+    </router-view>
   </div>
 </template>
 
 <script setup>
 import AppFooter from "./components/AppFooter.vue";
-
 </script>
 
 <style scoped>

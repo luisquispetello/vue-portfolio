@@ -17,7 +17,7 @@ app.use(
   {
     appName: "My portfolio",
     pageTrackerScreenviewEnabled: true,
-    config: { id: process.env.VUE_APP_GTAG },
+    config: { id: 'G-7X8SJCVBFY' },
   },
   router
 );
