@@ -1,8 +1,8 @@
 :root {
-  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-family: 'Mona Sans VF', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   line-height: 1.625;
-  font-weight: 400;
+  font-variation-settings: "wght" 500, "wdth" 125, "opsz" 72;
 
   color: rgba(255, 255, 255, 0.87);
   background-color: #15161e;
@@ -14,6 +14,33 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* Fonts */
+@font-face {
+  font-family: 'Mona Sans VF';
+  src:
+    url('MonaSansVF[wdth,wght,opsz,ital].woff2') format('woff2 supports variations'),
+    url('MonaSansVF[wdth,wght,opsz,ital].woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+@font-face {
+  font-family: 'Mona Sans VF';
+  src:
+    url('MonaSansVF[wdth,wght,opsz,ital].woff2') format('woff2 supports variations'),
+    url('MonaSansVF[wdth,wght,opsz,ital].woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-style: italic;
+  font-optical-sizing: auto;
+}
+
+html {
+  font-family: 'Mona Sans VF';
+}
+
 body {
   font-size: 2.4rem;
   font-size: clamp(1.6rem, 1vw + 1rem, 2.4rem);
@@ -21,17 +48,8 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
   overflow-x: hidden;
-}
-
-/* Fonts */
-@font-face {
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: block;
-  font-style: normal;
 }
 
 a {
