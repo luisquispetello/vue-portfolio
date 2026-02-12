@@ -117,7 +117,7 @@ img {
   font-size: 1rem;
   font-size: clamp(1.1rem, 1vw + 1rem, 1.5rem);
   font-family: inherit;
-  background-color: #242533;
+  background-color: rgba(0, 0, 0, 0.1);
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
   transition: background-color 0.25s;
@@ -126,7 +126,7 @@ img {
   text-transform: uppercase;
 }
 .button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .button:focus,
 .button:focus-visible {
