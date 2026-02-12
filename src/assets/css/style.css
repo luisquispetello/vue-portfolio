@@ -1,17 +1,11 @@
 :root {
-  font-family: 'Mona Sans VF', Helvetica, Arial, sans-serif;
+  font-family: 'Mona Sans VF', sans-serif;
   font-size: 62.5%;
   line-height: 1.625;
-  font-variation-settings: "wght" 500, "wdth" 125, "opsz" 72;
+  font-variation-settings: "wght" 400, "wdth" 125, "opsz" 72;
 
   color: rgba(255, 255, 255, 0.87);
   background-color: #15161e;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 /* Fonts */
